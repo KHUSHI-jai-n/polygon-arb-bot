@@ -9,7 +9,7 @@ Arbitrage in this context means:
 
 ---
 
-## ⚡ Features
+## Features
 - Connects to Polygon RPC node
 - Fetches WETH → USDC price from **QuickSwap** and **SushiSwap**
 - Detects price differences and calculates simulated profit
@@ -21,7 +21,7 @@ Arbitrage in this context means:
 
 ---
 
-## 🛠 Technology Stack
+## Technology Stack
 - **Language:** Rust
 - **Blockchain:** Polygon Network
 - **DEXes:** QuickSwap, SushiSwap (Uniswap V2-style routers)
@@ -30,14 +30,3 @@ Arbitrage in this context means:
   - `tokio` → Async runtime
   - `serde`, `toml` → Config parsing
   - `anyhow` → Error handling
-
----
-
-## 📂 Project Structure
-polygon-arb-bot/
-├── src/
-│ └── main.rs # Main bot logic
-├── Cargo.toml # Dependencies & metadata
-├── config.toml
-├── .gitignore
-└── README.md
