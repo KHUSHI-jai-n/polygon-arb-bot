@@ -1,0 +1,14 @@
+rpc_url = "https://polygon-rpc.com"
+
+# Routers
+quickswap_router = "0xa5E0829CaCEd8fFDD4De3c43696c57F7D7A678ff"
+sushiswap_router = "0x1b02da8cb0d097eb8d57a175b88c7d8b47997506"
+
+# Token addresses (Polygon mainnet)
+weth = "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+usdc = "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+
+# Bot settings
+trade_size = 1.0      # 1 WETH trade
+min_profit = 5.0      # Minimum profit in USDC
+gas_cost = 0.5        # Simulated gas cost

@@ -1,0 +1,11 @@
+[package]
+name = "polygon-arb-bot-project"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ethers = { version = "2.0", features = ["abigen", "rustls"] }
+tokio = { version = "1.37", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+toml = "0.8"
+anyhow = "1.0"

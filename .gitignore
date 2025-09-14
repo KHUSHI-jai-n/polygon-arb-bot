@@ -1,0 +1,10 @@
+# Rust
+/target
+**/*.rs.bk
+
+# Logs & misc
+*.log
+.DS_Store
+
+# Secrets
+.env
